@@ -1,0 +1,20 @@
+<table border="1">
+  <th>id</th>
+  <th>sname</th>
+  <th>course</th>
+  <th>courseid</th>
+  <th>place</th>
+  <th>project</th>
+  <th>update</th>
+  <th>delete</th>
+  <tr *ngFor= "let student of students">
+      <td>{{student.id}}</td>
+  <td>{{student.sname}}</td>
+  <td>{{student.course}}</td>
+  <td>{{student.courseid}}</td>
+  <td>{{student.place}}</td>
+  <td>{{student.project}}</td>
+  
+  <td (click) = "deletestudent(student.id)"><a>DELETE</a></td>
+  </tr>
+  </table>

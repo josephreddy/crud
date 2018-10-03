@@ -1,0 +1,12 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "sname": "joseph",
+      "course": "java",
+      "courseid": "1002",
+      "place": "hyd",
+      "project": "sample"
+    }
+  ]
+}
